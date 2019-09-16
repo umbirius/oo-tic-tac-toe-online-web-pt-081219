@@ -220,7 +220,10 @@ class TicTacToe
     win_combo
   end 
   
-  def 
+  def full? 
+    if @board.all? {|occupied| occupied != " "} 
+    end 
+  end 
   
 end 
 
