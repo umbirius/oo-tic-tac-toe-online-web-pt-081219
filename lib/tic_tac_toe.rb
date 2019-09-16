@@ -234,7 +234,21 @@ class TicTacToe
     end
   end 
   
-  
+  def winner? 
+    win_combo = nil
+    WIN_COMBINATIONS.each do |combo|
+      if @board[combo[0]] == "X" && @board[combo[1]] == "X" && @board[combo[2]] == "X"
+        true
+        win_combo=combo
+      elsif @board[combo[0]] == "O" && @board[combo[1]] == "O" && @board[combo[2]] == "O"
+        true
+        win_combo=combo
+      else 
+        nil
+      end 
+    end 
+    win_combo
+  end 
   
 end 
 
