@@ -220,7 +220,7 @@ class TicTacToe
     win_combo
   end 
   
-  
+  def 
   
 end 
 
