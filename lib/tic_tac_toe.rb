@@ -225,7 +225,11 @@ class TicTacToe
   end 
   
   def draw? 
-    if won? || 
+    if full? || !(won?) 
+  end
+  
+  def over? 
+    
   
 end 
 
