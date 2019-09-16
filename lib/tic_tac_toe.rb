@@ -240,7 +240,9 @@ class TicTacToe
         @board[combo[1]] == "X" && 
         @board[combo[2]] == "X"
         return "X"
-      elsif @board[combo[0]] == "O" && @board[combo[1]] == "O" && @board[combo[2]] == "O"
+      elsif @board[combo[0]] == "O" && 
+      @board[combo[1]] == "O" && 
+      @board[combo[2]] == "O"
         return "O"
       end 
     end 
