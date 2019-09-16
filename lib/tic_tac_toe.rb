@@ -233,7 +233,6 @@ class TicTacToe
   end 
   
   def winner? 
-    win_combo = nil
     WIN_COMBINATIONS.detect do |combo|
       if 
         @board[combo[0]] == "X" && 
